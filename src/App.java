@@ -6,7 +6,7 @@ public class App {
         Scanner leitura = new Scanner(System.in); // instanciando o objeto Scanner usando um dispositivo de entrada (System.in)        
         Adicao ObjAdicao = new Adicao();
 
-        System.out.println("bem vindo a calculadora!");
+        System.out.println("Bem vindo a calculadora!");
         System.out.println("Informe um número");
 
         ObjAdicao.adicao1= leitura.nextDouble();
@@ -18,6 +18,14 @@ public class App {
         Double ResultadoSoma = ObjAdicao.adicao1 + ObjAdicao.adicao2;
 
         System.out.println("O resultado da soma é: " + ResultadoSoma);
-    
+            
     }
+
+
+
 }
+
+     
+        
+
+    
