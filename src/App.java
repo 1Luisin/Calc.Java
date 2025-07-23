@@ -8,7 +8,7 @@ public class App {
         Double soma1; // Váriavel
         Double soma2; // Váriavel 2
         System.out.println("bem vindo a calculadora!");
-        System.out.println("Informe um número para adicionar a outro");
+        System.out.println("Informe um número");
 
         soma1 = leitura.nextDouble();
 
@@ -17,6 +17,8 @@ public class App {
         soma2 = leitura.nextDouble();
 
         Double ResultadoSoma = soma1 + soma2;
+
+        System.out.println("O resultado da soma é: " + ResultadoSoma);
     
     }
 }
