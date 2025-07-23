@@ -3,9 +3,13 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         
+        Boolean exitBoolean = false;
+
         Scanner leitura = new Scanner(System.in); // instanciando o objeto Scanner usando um dispositivo de entrada (System.in)        
         Adicao ObjAdicao = new Adicao();
-
+        
+        while(exitBoolean != true){
+        
         System.out.println("Bem vindo a calculadora!");
         System.out.println("Informe um número");
 
@@ -18,13 +22,22 @@ public class App {
         Double ResultadoSoma = ObjAdicao.adicao1 + ObjAdicao.adicao2;
 
         System.out.println("O resultado da soma é: " + ResultadoSoma);
+        }
+        
+        
             
-        System.out.println("Continuar?");
+        
     }
 
+    //public static double FuncDiv() {
+        
+        //Subtracao ObjSubtracao = new Subtracao();
 
-
+        
 }
+
+
+
 
      
         
