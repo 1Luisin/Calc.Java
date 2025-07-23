@@ -19,6 +19,7 @@ public class App {
 
         System.out.println("O resultado da soma é: " + ResultadoSoma);
             
+        System.out.println("Continuar?");
     }
 
 
