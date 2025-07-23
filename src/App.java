@@ -12,7 +12,7 @@ public class App {
 
         soma1 = leitura.nextDouble();
 
-        System.out.println("Informe o segundo número.");
+        System.out.println("Informe um segundo número.");
 
         soma2 = leitura.nextDouble();
 
