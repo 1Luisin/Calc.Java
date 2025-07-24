@@ -65,6 +65,13 @@ public class App {
         Scanner leitura = new Scanner(System.in); // instanciando o objeto Scanner usando um dispositivo de entrada (System.in)        
          Adicao ObjAdicao = new Adicao();
 
+        Divisao ObjDivisao = new Divisao();
+
+        System.out.println("Informe um número:");
+        ObjDivisao.divisao1 = leitura.nextDouble();
+        System.out.println("Informe outro número");
+        ObjDivisao.divisao2 = leitura.nextDouble();
+        
         Double ResultadoDiv;
         return ResultadoDiv;
 
