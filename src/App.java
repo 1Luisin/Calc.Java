@@ -72,7 +72,7 @@ public class App {
         System.out.println("Informe outro número");
         ObjDivisao.divisao2 = leitura.nextDouble();
         
-        Double ResultadoDiv;
+        Double ResultadoDiv = ObjDivisao.divisao1 / ObjDivisao.divisao2;
         return ResultadoDiv;
 
 
