@@ -22,17 +22,32 @@ public class App {
         Double ResultadoSoma = ObjAdicao.adicao1 + ObjAdicao.adicao2;
 
         System.out.println("O resultado da soma é: " + ResultadoSoma);
-        }
-        
-        
-            
-        
+
+    
     }
-
-    //public static double FuncDiv() {
         
-        //Subtracao ObjSubtracao = new Subtracao();
+     }
 
+    public static double FuncDiv() {
+
+         Scanner leitura = new Scanner(System.in); // instanciando o objeto Scanner usando um dispositivo de entrada (System.in)        
+         Adicao ObjAdicao = new Adicao();
+        
+        Subtracao ObjSubtracao = new Subtracao();
+
+            System.out.println("Informe um número:");
+
+            ObjSubtracao.subtracao1 = leitura.nextDouble();
+
+            System.out.println("Informe outro número:");
+
+            ObjSubtracao.subtracao2 = leitura.nextDouble();
+
+        Double ResultadoSubt = ObjSubtracao.subtracao1 - ObjSubtracao.subtracao2;
+        
+        return ResultadoSubt;
+
+        }
         
 }
 
