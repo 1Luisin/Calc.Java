@@ -62,10 +62,12 @@ public class App {
         
     public static double FuncDiv(){
 
+        Scanner leitura = new Scanner(System.in); // instanciando o objeto Scanner usando um dispositivo de entrada (System.in)        
+         Adicao ObjAdicao = new Adicao();
 
-        
         Double ResultadoDiv;
-        return ResultadoDid;
+        return ResultadoDiv;
+
 
     }
 
