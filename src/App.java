@@ -22,13 +22,23 @@ public class App {
         Double ResultadoSoma = ObjAdicao.adicao1 + ObjAdicao.adicao2;
 
         System.out.println("O resultado da soma é: " + ResultadoSoma);
-
-    
+        System.out.println("Sair ou continuar no programa?\nContinuar\nSair");
+        int EntradaUser = leitura.nextInt();
+            if(EntradaUser == 1) {
+                exitBoolean = false;
+            }
+            else if (EntradaUser == 2){
+                exitBoolean = true;
+            }
+            else {
+                System.out.println("Comando não encontrado!");
+                exitBoolean = true;                
+            }
     }
         
      }
 
-    public static double FuncDiv() {
+    public static double FuncSubt() {
 
          Scanner leitura = new Scanner(System.in); // instanciando o objeto Scanner usando um dispositivo de entrada (System.in)        
          Adicao ObjAdicao = new Adicao();
@@ -49,7 +59,8 @@ public class App {
 
         }
         
-}
+
+    }
 
 
 
