@@ -24,6 +24,7 @@ public class App {
         System.out.println("O resultado da soma é: " + ResultadoSoma);
         System.out.println("Sair ou continuar no programa?\nContinuar\nSair");
         int EntradaUser = leitura.nextInt();
+            
             if(EntradaUser == 1) {
                 exitBoolean = false;
             }
@@ -59,6 +60,14 @@ public class App {
 
         }
         
+    public static double FuncDiv(){
+
+
+        
+        Double ResultadoDiv;
+        return ResultadoDid;
+
+    }
 
     }
 
