@@ -1,3 +1,15 @@
-## Calculadora Super simples em Java
+# 🧮 Calculadora Básica em Java
 
-Projeto pequeno de uma calculadora sendo feita em java, testando as principais sintaxes da linguagem Java, constante, variáveis, classes e objetos.
+Projeto simples criado para praticar a sintaxe básica do Java.
+
+## Funcionalidades
+- Soma
+- Subtração
+- Multiplicação
+- Divisão
+
+## Tecnologias
+- Java
+
+## Objetivo
+Exercício introdutório de lógica e estrutura de código em Java.
